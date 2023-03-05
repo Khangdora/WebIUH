@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21053201_VoTruongKhang_Bài 14</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="bai14">
+    <h2>Contact Us</h2>
+    <p>Use the following form to send a message to Excample Cafe</p>
+    <form action="" method="POST">
+        <table>
+            <tr>
+                <td width="200px"><label>Your email</label></td>
+                <td><input placeholder="Nhập email..." type="email" name="txtEmail" size="20" maxlength="20" required></td>
+            </tr>
+            <tr>
+                <td><label>Message</label></td>
+                <td><textarea placeholder="Nhập lời nhắn..." name="txtMessage" rows="10" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td><label>How did you hear of us?</label></td>
+                <td>
+                    <select name="Hear" id="hear">
+                        <option value="google">Google</option>
+                        <option value="facebook">Facebook</option>
+                        <option value="zalo">Zalo</option>
+                        <option value="twitter">Twitter</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Newsletter</td>
+                <td><input type="checkbox" name="newsletter" value="Newsletter"> Ensure this box is checked if you would like to receive email updates</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
