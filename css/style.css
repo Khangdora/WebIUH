@@ -1,0 +1,88 @@
+.bai2 {
+    text-align: center;
+    background-color: rgba(213, 212, 35, 1);
+    margin: 0px;
+}
+
+.container {
+    background-color: rgba(213, 212, 35, 1);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.bai3left {
+    text-align: left;
+}
+
+.bai3center {
+    text-align: center;
+}
+
+.bai3right {
+    text-align: right;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+}
+
+.bai61 {
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.red {
+    color: red;
+}
+
+.deeppink {
+    color: deeppink;
+}
+
+.cellpadding td {
+    padding: 10px;
+}
+
+.bai9 table,
+.bai9 tr,
+.bai9 th,
+.bai9 td {
+    border: 2px solid rgb(255, 115, 0);
+    text-align: center;
+}
+
+.bai9 table {
+    border-collapse: collapse;
+    background-color: rgb(223, 223, 88);
+}
+
+.bai9 th {
+    background-color: rgb(79, 188, 238);
+}
+
+.bai9 th,
+.bai9 td {
+    padding: 5px;
+}
+
+summary {
+    cursor: pointer;
+}
+
+.bai14 table,
+.bai14 tr,
+.bai14 th,
+.bai14 td {
+    border: 0px solid;
+}
